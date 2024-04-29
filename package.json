@@ -1,0 +1,55 @@
+{
+  "name": "proyecto-final-backend-coderhouse",
+  "version": "0.1.1",
+  "description": "Proyecto Final del curso de BackEnd de CoderHouse",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "dev": "nodemon .",
+    "start:prod": "node ./src/server.js",
+    "dev:prod": "nodemon ./src/server.js"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://https://github.com/DanielGitHubSantilli/PF_BE_Santilli"
+  },
+  "keywords": [
+    "proyecto",
+    "trabajo",
+    "final",
+    "coderhouse",
+    "backend"
+  ],
+  "author": "Santilli Daniel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielGitHubSantilli/PF_BE_Santilli/issues"
+  },
+  "homepage": "https://github.com/DanielGitHubSantilli/PF_BE_Santilli#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cluster": "^0.7.7",
+    "connect-mongo": "^4.6.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.7",
+    "jsonwebtoken": "^9.0.0",
+    "minimist": "^1.2.8",
+    "mongoose": "^6.10.0",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.20",
+    "normalizr": "^3.6.2",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "pug": "^3.0.2",
+    "socket.io": "^4.6.1",
+    "twilio": "^4.8.0",
+    "uuid": "^9.0.0",
+    "winston": "^3.8.2"
+  }
+}
