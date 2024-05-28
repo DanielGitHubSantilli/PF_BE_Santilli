@@ -1,9 +1,9 @@
-# Desafío 25 - Entrega del Proyecto Final
+#  Entrega del Proyecto Final
 
 ## Instalación
 Para bajar la aplicación de github escribir el siguiente comando en la terminal:
 ```
-git clone "https://github.com/JoaquinCarre/proyecto-final-backend-coderhouse"
+git clone [(https://github.com/DanielGitHubSantilli/PF_BE_Santilli}]
 ```
 
 Luego asegurarse de instalar todas las dependencias con el siguiente comando:
